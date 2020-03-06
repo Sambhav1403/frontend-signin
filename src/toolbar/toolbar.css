@@ -1,0 +1,43 @@
+.toolbar{
+    width: 100%;
+    position: fixed;
+    background: #000000;
+    height: 56px;
+    top: 0;
+    left: 0;
+
+}
+.toolbar_navigation{
+    display:flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.toolbar_logo a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.toolbar_navigation_items{
+    color: white;
+    text-decoration: none;
+}
+.toolbar_navigation_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.toolbar_navigation_items li a{
+    padding: 0 0.5rem;
+    color: white ;
+    text-decoration: none;
+}
+.spacer{
+    flex: 0.5;
+}
+
+.toolbar_navigation_items a:hover,
+.toolbar_navigation_items a:active{
+    color:orange;
+}
